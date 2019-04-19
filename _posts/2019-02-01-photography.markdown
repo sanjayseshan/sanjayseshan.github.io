@@ -26,8 +26,8 @@ background: '/img/posts/07.jpg'
 <img src="{{ site.baseurl }}/img/GoldenGate.jpg" width="100%">
 <span class="caption text-muted">Bridging Worlds (San Francisco)</span>
 
-<img src="{{ site.baseurl }}/img/MuirWoods.jpg" width="100%">
-<span class="caption text-muted">Into the Woods (Muir Woods)</span>
+<img src="{{ site.baseurl }}/img/Ultimate.jpg" width="100%">
+<span class="caption text-muted">Pass it to me (Fox Chapel Area School District)</span>
 
 <img src="{{ site.baseurl }}/img/Arch.jpg" width="100%">
 <span class="caption text-muted">Gateway to the West (St.Louis)</span>
@@ -35,11 +35,11 @@ background: '/img/posts/07.jpg'
 <img src="{{ site.baseurl }}/img/FallingWater.jpg" width="100%">
 <span class="caption text-muted">House in the Woods (Falling Water)</span>
 
-<img src="{{ site.baseurl }}/img/Bells.jpg" width="100%">
-<span class="caption text-muted">Time for Prayer (Thailand)</span>
+<img src="{{ site.baseurl }}/img/Color.jpg" width="100%">
+<span class="caption text-muted">A Splash of Color (Pittsburgh, PA)</span>
 
 <img src="{{ site.baseurl }}/img/Downtown.jpg" width="100%">
 <span class="caption text-muted">Downtown</span>
 
-<img src="{{ site.baseurl }}/img/Lanterns.jpg" width="100%">
-<span class="caption text-muted">Lighting the World (Thailand)</span>
+<img src="{{ site.baseurl }}/img/Pencil.jpg" width="100%">
+<span class="caption text-muted">Pencil(Fox Chapel Area High School)</span>
