@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "My travels"
+date:   2019-1-30 10:45:13 -0400
+background: '/img/posts/06.jpg'
+---
+
+<p>I have had the good fortune of traveling around the world. To date, I have been to Mexico, Costa Rica, Thailand, India, Singapore, China, France, Italy, United Kingdom, Turkey, Denmark and Canada. The cover photo above was taken on a small street in Chiang Mai, Thailand. It is hard to pick a favorite moment. I have loved walking down the empty streets of Pompeii imagining what life in Ancient Rome may have been like to experiencing the opulence of the palace at Versaille. I have loved chatting with a monk in Thailand about Buddhism, to sharing a meal with a Costa Rican family. Perhaps experiencing the coldest cold during a blizzard in Iceland is one I will never forget. Each country and each city brings a whole new set of experiences!</p>
+
+<h2 class="section-heading">Go to the places the locals do</h2>
+
+<p>My mother taught me when I was young to enjoy a country. Yes, see the sights you must see, but don't be afraid to go off the beaten path and explore. The best way to see a place is to walk. On your way to a destination, you might get side-tracked or even lost. However, it is in getting lost that you find the most amazing sites. </p>
+
+<p> This past February, I had exactly 30 hours to spend in Istanbul. Tired and jet-lagged though I was, I knew that this was an opportunity not to be lost. I had read about Constantinople in my AP World History class, but to see and experience this history was an opportunity of a lifetime. I told my family that I did not mind if I was tired. I wanted to see everything. </p>
+
+<img src="{{ site.baseurl }}/img/SanjayTurkey.jpg" width="100%">
+<span class="caption text-muted">In Istanbul</span>
+
+
+<p>So, we wandered the city on foot for 30 hours. In 30 hours I discovered the beauty of Istanbul - history written into the stone itself at the Hagia Sophia, the remains of a Roman Aqueduct, now traversed by busses and taxis, Mosques that provided safe refuge for itinerant travelers and the aroma of spices which brought them there. Being there taught me far more than my history book every could.</p>
+
+<blockquote class="blockquote">“The real voyage of discovery consists not in seeking new landscapes, but in having new eyes.” – Marcel Proust</blockquote>
+
+<img src="{{ site.baseurl }}/img/SanjayIceland.jpg" width="100%">
+<span class="caption text-muted">In Iceland</span>
