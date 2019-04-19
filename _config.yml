@@ -2,8 +2,8 @@ title:             Sanjay Seshan
 email:            sanjay@seshan.org
 description:      My work. My interests.
 author:
-baseurl:           "/startbootstrap-clean-blog-jekyll"
-url:               "http://blackrockdigital.github.io"
+baseurl:           ""
+url:               "http://sanjay.seshan.org"
 
 # Social Profiles
 twitter_username:  SeshanBrothers
