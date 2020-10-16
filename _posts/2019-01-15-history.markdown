@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Why learn history?"
-date:   2019-01-15 23:45:13 -0400
+title:  "Why Learn History"
+date:   2020-02-25 23:45:13 -0400
 background: '/img/posts/02.jpg'
 ---
 
-<p>The man under the sign could not be missed. As I entered the National Air Force Museum in Dayton, Ohio, there he sat, under a quotation that made me stop and think. He reminded me why we study history. We study history so that we can learn from our mistakes.
+<p>I took the photograph above at the National Air Force Museum in Dayton, Ohio. Something about the man with beard under a sign reminding us the importance of history struck me.
 
 <h2 class="section-heading">A passion for history</h2>
 
@@ -18,7 +18,7 @@ background: '/img/posts/02.jpg'
 <h2 class="section-heading">Why History?</h2>
 <p> Last summer, I had to read a book about King Leopold in the Democratic Republic of Congo. While we hear about the genocide of Jewish people in World War II, rarely do we hear about the genocide that took place in the Africa. I was shocked this story was also not part of our common knowledge. How many other places around the world have faced the same atrocities? We need to study history and talk about our past.
 </p>
-<p>I decided to start a History Club at my high school during my sophomore year. Most of the members are students from my AP World History class. We play historical boardgames, watch historical movies, have discussions on topics and are planning a field trip.</p>
+<p>I decided to start a History Club at my high school during my sophomore year. Most of the members are also students from my AP World History class. We play historical boardgames, watch historical movies, have discussions on topics and are planning a field trip. We even help each other study for tests.</p>
 
 <p>I love traveling to historical sites, but I also have an interest in technological history. I enjoy museum exhibits displaying tools and technology of ancient and not-so-ancient people. On a trip to Costa Rica, I discovered a very unique collection of modern, but old technology in the back of a restaurant.</p>
 

@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Photography"
-date:   2019-1-30 10:45:13 -0400
+title:  "Photography for Fun"
+date:   2019-10-30 10:45:13 -0400
 background: '/img/posts/07.jpg'
 ---
 

@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Innovation during COVID-19"
+date:   2020-06-10 23:45:13 -0400
+background: '/img/posts/Talent.png'
+---
+
+<p>COVID-19 shut down school, robotics, and all activities around me. Instead of stopping all activity, it was a time of innovation for me.</p>
+
+<h2 class="section-heading">History Club Virtual Contest</h2>
+
+<p>With school abruptly closed, our activities closed too. In April, as it became obvious that we were not going to return to school, I devised a plan to engage everyone. I started a daily history trivia challenge for a month. I contacted school administrators and asked if they would promote it to all the students. Staff were also permitted to participate. For one month (including weekends), every day I posted a trivia question related to history. Students raced to be the first to submit their answers for bonus points. Teachers were eager to participate. It was a very exciting few weeks and I look forward to starting it up again this fall.</p>
+
+<p>I designed and 3D-printed prizes to give out to everyone.</p>
+
+<h2 class="section-heading">Virtual Open Invitational</h2>
+
+<p>The FIRST Robotics World Championships got cancelled as well. Even though I could not have an event for my team, I decided to organize a virtual event for elementary and middle school teams: Virtual Expo and Virtual Open Invitational was born. I spent hundreds of hours in March and April to organize the events, recruit volunteers, coordinate with other teams to make awards and run the tournament. This event was one of the most fulfilling projects I have been part of. You can learn more about the event at <a href="http://www.virtualopeninvitational.org">VOI</a></p>.

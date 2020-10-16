@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Robots and I"
-date:   2019-03-10 23:45:13 -0400
+date:   2019-05-10 23:45:13 -0400
 background: '/img/posts/05.jpg'
 ---
 
@@ -21,7 +21,7 @@ background: '/img/posts/05.jpg'
 
 <h2 class="section-heading">Inspiring thousands</h2>
 
-<p>I have been building and programming non-competition robots for the last five years. I really enjoy mixing My robots have been featured on the Verge, Discovery Channel, CNET, LEGO YouTube, LEGO Facebook, LEGO Education YouTube, LEGO Education Facebook.
+<p>I have been building and programming non-competition robots for the last five years. I really enjoy combining different robotics and computing platforms (e.g., MINDSTORMS, Raspberry PI, Android) in my projects. My robots have been featured on the Verge, Discovery Channel, CNET, LEGO YouTube, LEGO Facebook, LEGO Education YouTube, LEGO Education Facebook.
 
 <img src="{{ site.baseurl }}/img/Printer.jpg" width="100%">
 <span class="caption text-muted">My MINDSTORMS 3D Printer and dot-matrix printer</span>
@@ -33,7 +33,7 @@ background: '/img/posts/05.jpg'
 
 * 2018 Selected to be one of 20 exhibitors at The LEGO House in Billund, Denmark to celebrate the 20th Anniversary of MINDSTORMS<br>
 
-* 2018 Selected to be one of 6 speakers on the 20th Anniversay of MINDSTORMS video.<br>
+* 2018 Selected to be one of 6 speakers on the 20th Anniversary of MINDSTORMS video.<br>
 
 * 2018 Commendation from Tom Wolf, Governor of Pennsylvania<br>
 
