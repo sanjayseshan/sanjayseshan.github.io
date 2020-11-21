@@ -8,7 +8,7 @@ background: '/img/bg-portfolio.jpg'
 <link href="css/style.css" rel="stylesheet"/>
 <!-- <link href="css/reset.css" rel="stylesheet"/> -->
 
-<div class="controls">
+<div class="controls" data-sort="random">
 	<center>
 
 	<button type="button" class="control" data-filter="all">All</button>
@@ -153,4 +153,5 @@ background: '/img/bg-portfolio.jpg'
 <script>
     var containerEl = document.querySelector('.pcontainer');
     var mixer = mixitup(containerEl);
+		mixer.sort("random")
 </script>
