@@ -5,197 +5,76 @@ description: This is what I make
 background: '/img/bg-portfolio.jpg'
 ---
 
-<!-- Portfolio Start -->
-<section id="portfolio-work">
-<div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="block">
-          <div class="portfolio-menu">
-            <ul>
-                <li class="filter" data-filter="all">Everything</li>
-                <li class="filter" data-filter=".LEGO">LEGO</li>
-                <li class="filter" data-filter=".Tutorials">Tutorials</li>
-                <li class="filter" data-filter=".FTC">FIRST Apps</li>
-                <li class="filter" data-filter=".FRC">FIRST Robotics Competition</li>
+<link href="css/style.css" rel="stylesheet"/>
+<!-- <link href="css/reset.css" rel="stylesheet"/> -->
 
-            </ul>
-          </div>
-          <div class="portfolio-contant">
-            <ul id="portfolio-contant-active">
-                <li class="mix Tutorials">
-                  <a href="http://www.ev3lessons.com">
-                    <img src="{{ site.baseurl }}/img/portfolio/EV3Lessons.png" alt="">
-                    <div class="overly">
-                      <div class="position-center">
-                        <h2>Tutorials</h2>
-                        <p>The #1 resource for learning to program the EV3. Over 700,000 users.</p>
+<div class="controls">
+	<center>
 
-                      </div>
-                    </div>
-                  </a>
-              </li>
+	<button type="button" class="control" data-filter="all">All</button>
+	<button type="button" class="control" data-filter=".blue">LEGO</button>
+	<button type="button" class="control" data-filter=".green">Tutorials</button>
+	<button type="button" class="control" data-filter=".pink">FIRST Apps</button>
+	<button type="button" class="control" data-filter=".yellow">FIRST Robotics</button>
+</center>
 
-              <li class="mix Tutorials">
-                <a href="http://www.primelessons.org">
-                  <img src="{{ site.baseurl }}/img/portfolio/PrimeLessons.png" alt="">
-                  <div class="overly">
-                    <div class="position-center">
-                      <h2>Spike Prime Lessons</h2>
-                      <p>Learn to use Spike Prime</p>
-
-                    </div>
-                  </div>
-                </a>
-              </li>
-
-              <li class="mix Tutorials">
-                <a href="http://www.flltutorials.com">
-                  <img src="{{ site.baseurl }}/img/portfolio/FLLTutorials.png" alt="">
-                  <div class="overly">
-                    <div class="position-center">
-                      <h2>FLLTutorials</h2>
-                      <p>Teams sharing informatation about FIRST LEGO League. </p>
-
-                    </div>
-                  </div>
-                </a>
-              </li>
-
-
-              <li class="mix Tutorials">
-                <a href="https://www.facebook.com/groups/FLLShareandLearn/">
-                  <img src="{{ site.baseurl }}/img/portfolio/FLL.png" alt="">
-                  <div class="overly">
-                    <div class="position-center">
-                      <h2>FLL Challenge: Share and Learn</h2>
-                      <p>Started in 2017, this online community group has brought together thousands of teams, Partners, organizers and volunteers worldwide.</p>
-
-                    </div>
-                  </div>
-
-                </a>
-              </li>
-              <!-- <li class="mix LEGO">
-                <a href="https://www.facebook.com/groups/2146204762370968/">
-                  <img src="{{ site.baseurl }}/img/portfolio/FLLJr.png" alt="">
-                  <div class="overly">
-                    <div class="position-center">
-                      <h2>FLL Explore: Share & Learn</h2>
-                      <p>A community group to bring toward Junior Teams. </p>
-
-                    </div>
-                  </div>
-                </a>
-              </li>
-              <li class="mix FTC">
-                <a href="https://www.facebook.com/groups/FTCShareAndLearn/">
-                  <img src="{{ site.baseurl }}/img/portfolio/FTC.png" alt="">
-                  <div class="overly">
-                    <div class="position-center">
-                      <h2>FTC: Share & Learn</h2>
-                      <p>A community group focussed on bringing together teams, organizers and more in the spirit of Gracious Professionalism and Coopertition. </p>
-
-                    </div>
-                  </div>
-                </a>
-              </li>
-              <li class="mix FRC">
-                <a href="https://www.facebook.com/groups/FRCShareandLearn/">
-                  <img src="{{ site.baseurl }}/img/portfolio/FRC.png" alt="">
-                  <div class="overly">
-                    <div class="position-center">
-                      <h2>FRC: Share & Learn</h2>
-                      <p>A community group focussed on bringing together teams, organizers and more in the spirit of Gracious Professionalism and Coopertition. </p>
-
-                    </div>
-                  </div>
-                </a>
-              </li> -->
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
+	<!-- <button type="button" class="control" data-sort="default:asc">Asc</button>
+	<button type="button" class="control" data-sort="default:desc">Desc</button> -->
 </div>
-</section>
 
+<div class="pcontainer">
+	<div class="mix green" height=>
+		<center>
+			<a href="http://www.ev3lessons.com">
+				<img src="{{ site.baseurl }}/img/portfolio/EV3Lessons.png" width="90%" alt="">
+				<h4>Tutorials</h4>
+				<p>The #1 resource for learning to program the EV3. Over 700,000 users.</p>
+			</a>
+		</center>
+	</div>
+	<div class="mix green">
+		<center>
+			<a href="http://www.primelessons.org">
+				<img src="{{ site.baseurl }}/img/portfolio/PrimeLessons.png" width="90%" alt="">
+				<h4>Spike Prime Lessons</h4>
+				<p>Learn to use Spike Prime</p>
+			</a>
+		</center>
+	</div>
 
-  <!--
-<p> I have a diverse set of interest. I build with metal, wood, polycarbonate, acrylic and LEGO. I use CNCs, laser cutters, 3D printers, and hand tools. I use Arduino, Raspberry PIs and LEGO MINDSTORMS hardware and program in Java, Python, Scratch and LEGO’s Labview-based language. Sometimes, I build prototypes as part of research projects to solve world problems and other times, I build to engage students and inspire them to study STEM. Often my projects are some combination of the above, using different languages, tools and hardware, all simultaneously. Hope you enjoy this subset of projects. A lot of the LEGO MINDSTOMRS projects can be viewed on my <a href="https://www.youtube.com/c/SeshanBrothers/videos">YouTube Channel</a>.
- </p>
+	<div class="mix green">
+		<center>
+			<a href="http://www.flltutorials.com">
+				<img src="{{ site.baseurl }}/img/portfolio/FLLTutorials.png" width="90%" alt="">
+				<h4>FLLTutorials</h4>
+				<p>Teams sharing informatation about FIRST LEGO League. </p>
+			</a>
+		</center>
+	</div>
 
- <!DOCTYPE html>
- <html lang="en">
- <head>
- <meta charset="utf-8">
- <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <meta name="viewport" content="width=device-width, initial-scale=1">
- <title>A few news stories about my work</title>
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
- <style type="text/css">
-     .bs-example{
-     	margin: 20px;
-     }
- </style>
- </head>
- <body>
- <div class="bs-example">
-     <div class="panel-group" id="accordion">
-         <div class="panel panel-default">
-             <div class="panel-heading">
-                 <h4 class="panel-title">
-                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">LEGO MINDSTORMS</a>
-                 </h4>
-             </div>
-             <div id="collapseOne" class="panel-collapse collapse in">
-                 <div class="panel-body">
-                     <p>
-                                 <p><a target="_blank" href="https://www.facebook.com/watch/?v=2707195376264589">SPIKE Prime Plotter</a></p>
-                                 <p><a target="_blank" href="https://www.facebook.com/watch/?v=1221856804586950">MINDSTORMS Photo Plotter</a></p>
-                                 <p><a target="_blank" href="http://www.vocativ.com/389216/lego-robot-brothers-12-14/">Holiday Card Plotter Article</a></p>
-                                 <p><a target="_blank" href="https://youtu.be/XGDPLqzy6EA">Holiday Card Plotter YouTube</a></p>
-                                 <p><a target="_blank" href="https://youtu.be/jslYbiKfCGQ">3D Printer</a></p>
-                                 <p><a target="_blank" href="https://www.facebook.com/watch/?v=1457224394383522">PAC-BOT</a></p>
-                                 <p><a target="_blank" href="https://youtu.be/rLjpmieJZ8Q">Color Catcher</a></p>
-                                 <p><a target="_blank" href="https://www.facebook.com/watch/?v=371556410544775">Mario Kart</a></p>
+	<div class="mix green">
+		<center>
+			<a href="https://www.facebook.com/groups/FLLShareandLearn/">
+				<img src="{{ site.baseurl }}/img/portfolio/FLL.png" width="90%" alt="">
+				<h4>FLL Challenge: Share and Learn</h4>
+				<p>Started in 2017, this online community group has brought together thousands of teams, Partners, organizers and volunteers worldwide.</p>
+			</a>
 
+		</center>
+	</div>
+	<div class="mix blue"></div>
+	<div class="mix pink"></div>
+	<div class="mix yellow"></div>
+	<div class="mix blue"></div>
+	<div class="mix pink"></div>
+	<div class="mix blue"></div>
 
-                 </div>
-             </div>
-         </div>
-         <div class="panel panel-default">
-             <div class="panel-heading">
-                 <h4 class="panel-title">
-                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">APPS</a>
-                 </h4>
-             </div>
-             <div id="collapseTwo" class="panel-collapse collapse">
-                 <div class="panel-body">
-                     <p>Annual iOS <a href="https://apps.apple.com/us/developer/asha-seshan/id1035339929">Apps FIRST LEGO League Scorer</a>
-                     <p>Annual Android <a href="https://play.google.com/store/apps/developer?id=Droids+Robotics">Apps for FIRST LEGO League</a>
-
-                 </div>
-             </div>
-         </div>
-         <div class="panel panel-default">
-             <div class="panel-heading">
-                 <h4 class="panel-title">
-                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">PATENTS & INVENTIONS</a>
-                 </h4>
-             </div>
-             <div id="collapseThree" class="panel-collapse collapse">
-                 <div class="panel-body">
-                     <p>     <a target="_blank" href="https://www.sciencenewsforstudents.org/article/teen-identifies-way-detect-failing-underground-pipes">Broadcom MASTERS: Early Detection of Water Main Breaks</a></p>
-                     <p><a target="_blank" href="http://sanjay.seshan.org/autodrive/">ISEF: Autonomous Driving System  </a></p>
-                     <p><a target="_blank" href="https://arxiv.org/abs/2009.13322">REGENERON Submission: Gesture Recognition System </a><br></p>
-                 </div>
-             </div>
-         </div>
-     </div>
-
- </div>
- </body>
- </html> -->
+	<div class="gap"></div>
+	<div class="gap"></div>
+	<div class="gap"></div>
+</div>
+<script src="/js/mixitup.min.js"></script>
+<script>
+    var containerEl = document.querySelector('.pcontainer');
+    var mixer = mixitup(containerEl);
+</script>
