@@ -94,6 +94,10 @@ body {
     color: #5ecdde;
 }
 
+.control[data-filter=".purple"] {
+    color: #ee00de;
+}
+
 .control[data-filter=".pink"] {
     color: #d595aa;
 }
@@ -161,6 +165,10 @@ body {
 
 .mix.blue {
     color: #5ecdde;
+}
+
+.mix.purple {
+    color: #ee00de;
 }
 
 /* Grid Breakpoints
