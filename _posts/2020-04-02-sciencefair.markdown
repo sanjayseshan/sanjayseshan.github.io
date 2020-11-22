@@ -32,7 +32,7 @@ background: '/img/posts/01.jpg'
 
 <dl class="dl-horizontal">
   <dt>2020</dt>
-  <dd>First Place Engineering Region 7, Carnegie Mellon University Civil and Engineering Department Chi Epsilon award</dd>
+  <dd>First Place Engineering Region 7, PJAS Director’s Award, Sister Maze Award</dd>
     <dt>2019</dt>
     <dd>First Place Engineering Region 7, Carnegie Mellon University Civil and Engineering Department Chi Epsilon award</dd>
     <dt>2018</dt>
