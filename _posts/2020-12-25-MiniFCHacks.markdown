@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Mini Hackathon Fundraiser"
-date:   2020-11-17 23:45:13 -0400
+date:   2020-12-25 23:45:13 -0400
 background: '/img/posts/miniFCHacks.png'
 ---
 
