@@ -33,11 +33,11 @@ layout: default
         <!-- Home Post List -->
         {% for post in site.posts limit : 20 %}
 
-        <article class="post-preview">
+        <!-- <article class="post-preview">
           <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
             <h2 class="post-title">{{ post.title }}</h2>
             {% if post.subtitle %}
-            <h3 class="post-subtitle">{{ post.subtitle }}</h3>
+            <!-- <h3 class="post-subtitle">{{ post.subtitle }}</h3> -->
             {% else %}
             <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
             {% endif %}
@@ -50,17 +50,19 @@ layout: default
             {% endif %}
             on
             {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}</p>
-        </article>
+        </article> -->
 
         <hr>
 
         {% endfor %}
 
         <!-- Pager -->
-        <div class="clearfix">
+        <!-- <div class="clearfix">
           <a class="btn btn-primary float-right" href="{{"/posts" | relative_url }}">View All Posts &rarr;</a>
-        </div>
-
+        </div> -->
+<p>
+  Welcome to my personal website! I am currently a Freshman at MIT (Class of 2025), studying Electrical Engineering and Computer Science (Course 6). Some of my interests include working CS research, Product development, Machine Learning. Check out the other pages to learn more! 
+</p>
       </div>
     </div>
   </div>
