@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/maphilight/1.4.0/jquery.maphilight.min.js"></script>
+    <title>Sanjay Seshan</title>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-search-pseudo-elements></script>
+    <link rel="icon" href="img/SanjayLogo.png">
+
+</head>
+
+<body>
+    <div style="position:fixed;top:5px;margin-left: 5px;z-index: 99999999999;"><button id="hide" class="btn btn-secondary" onclick="show()"><i class="fa fa-chevron-left" aria-hidden="true"></i>
+    </button></div>
+
+    <script>
+        state = true;
+
+        function show() {
+            if (state) {
+                state = false;
+                document.getElementById("hide").innerHTML = '<i class="fa fa-bars" aria-hidden="true">';
+                document.getElementById("nav").style.opacity = "0";
+                document.getElementById("nav").style.transform = "translate(-160px)"
+
+                // document.getElementById("nav").style.display = "none";
+                document.getElementById("main").style.marginLeft = "0px";
+
+            } else {
+                state = true;
+                document.getElementById("hide").innerHTML = '<i class="fa fa-chevron-left" aria-hidden="true">';
+                // document.getElementById("nav").style.display = "inline";
+                document.getElementById("nav").style.opacity = "100";
+                document.getElementById("nav").style.transform = "translate(0px)"
+
+
+                document.getElementById("main").style.marginLeft = "160px";
+
+            }
+        }
+    </script>
+    <div class="sidenav" id="nav">
+
+        <center>
+            <img src="img/Seshan_014.jpg" style="object-fit:cover;border-radius:30%;width:90%;">
+            <a href="#sanjay"><b style="color:white">Sanjay Seshan</b></a>
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#awards">Awards</a>
+            <a href="#contact">Contact</a>
+            <br>
+
+            <a target="_blank" href="https://github.com/sanjayseshan">
+                <span class="fa-stack fa-sm">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+            </a>
+
+            <a target="_blank" href="https://www.linkedin.com/in/sanjayseshan">
+                <span class="fa-stack fa-sm">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                </span>
+            </a>
+
+            <a target="_blank" href="mailto:seshan@mit.edu">
+                <span class="fa-stack fa-sm">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                </span>
+            </a>
+
+        </center>
+
+    </div>
+
+    <div class="main" id="main" style="margin-top:10px">
+        <div id="sanjay" style="border:5px solid grey;border-radius: 5px; ">
+            <h1 style="margin:10px;">Sanjay Seshan</h1>
+        </div>
+        <br>
+        <div id='about' style="border:2px solid grey;border-radius: 5px; ">
+            <h2>About</h2>
+            <div style="margin-left: 20px;">
+                <!-- description: This is who I am -->
+
+                <p>My name is Sanjay. I am currently a Freshman at MIT (Class of 2025), studying Electrical Engineering and Computer Science (Course 6).</p>
+
+                <!-- I actively work with and am experienced with Java, Python, C, TensorFlow, SolidWorks, Raspberry Pi, Arduino, OpenCV, and Keras. -->
+
+                <p>I have been programming small LEGO robots for almost a decade now. I was invited by The LEGO Group to become one of the youngest ever MINDSTORMS Community Partners (MCP), a small group of experts invited to collaborate with LEGO on projects.
+                    I began my own website, EV3Lessons in 2014 and started teaching other children how to program LEGO robots. Today, I have a million users across all my websites and community groups. I have been invited by The LEGO Group and LEGO Education
+                    to participate in numerous events and conferences around the world to inspire others and share my knowledge. This expertise led to becoming a technical editor for a LEGO robotics book. Most recently, I was invited to the First 5, a
+                    group of 5 community members to help design and test a brand new LEGO robotics platform called SPIKE Prime. This product was launched in January 2020.
+                    <!-- I now also run a website called primelessons.org which hosts programming lessons for SPIKE Prime. -->
+                </p>
+
+                <p>I spent 10 years in FIRST Robotics, before and during high school (2010-2020). My team won the highest award in the program - World Champion’s in 2018. I participated in FIRST LEGO League and FIRST Robotics Competition, for which I was
+                    the lead programmer and captain of my team(s).</p>
+
+                <p>I also participated in science fairs between 2016 and 2021. I am both a Broadcom MASTERS finalist and an Intel ISEF finalist. These are the premiere international science fairs for students. All my projects were related to computer science
+                    and engineering. My projects can be found in the Portfolio page.
+                </p>
+            </div>
+        </div>
+        <br>
+        <div id='experience' style="border:2px solid grey;border-radius: 5px; ">
+            <h2>Experience</h2>
+            <div style="margin-left:20px;">
+                <h5>Education</h5>
+                <div style="margin-left:10px;">
+
+                    <b>MASSACHUSETTS INSTITUTE OF TECHNOLOGY</b>
+                    <ul>
+                        <li>Course 6-2 (Electical Engineering and Computer Science)</li>
+                        <li>Expected Graduation 2025</li>
+                    </ul>
+
+                    <b>FOX CHAPEL AREA HIGH SCHOOL</b>
+                    <ul>
+                        <li>Graduated with Highest Honors and Top Scholar Award
+                        </li>
+                        <li>Dual-Enrolled at Carnegie Mellon University (CMU)</li>
+                        <li>Graduated 2021</li>
+                    </ul>
+                </div>
+                <h5>Skills</h5>
+                <ul>
+                    <li>Java, Python, C, TensorFlow, SolidWorks, Raspberry Pi, Arduino, OpenCV, Keras, LEGO MINDSTORMS, Debian GNU/Linux</li>
+                </ul>
+                <h5>Relevant Coursework</h5>
+                <ul>
+                    <li>6.009 (MIT S22), Fundamentals of Programming</li>
+                    <li>6.004 (MIT S22), Computation Structures</li>
+                    <li>18.03 (MIT S22), Differential Equations</li>
+                    <li>6.006 (MIT F21), Introduction to Algorithms</li>
+                    <li>21-259 (CMU Su21), Multivariable Calculus</li>
+                    <li>15-122 (CMU S21), Principles of Imperative Computing</li>
+                    <li>21-127 (CMU S21), Discrete Math/Math for CS</li>
+                    <li>15-112 (CMU F20), Fundamentals of Programming in Python</li>
+                </ul>
+                <h5>Work and Research</h5>
+                <div style="margin-left: 10px;">
+                    <b>EMERALD INNOVATIONS – Cambridge, MA</b>
+                    <ul>
+                        <li>Software Engineering Intern, May 2022 – August 2022</li>
+
+                    </ul>
+                    <b>CARNEGIE MELLON UNIVERSITY – Pittsburgh, PA</b>
+                    <ul>
+                        <li>Intern, June 2019 – January 2021</li>
+                        <li>Collaborated with Prof. Mayank Goel (SmaSH lab) to create an inexpensive, lightweight, wearable assistive device that can measure hand or finger movements accurately enough to identify a range of hand gestures.</li>
+                        <li>Designed, created, and tested physical prototypes to test overall hardware performance</li>
+                        <li>Implemented and evaluated two software approaches for gesture recognition: The first uses an algorithm that combines moving averages of sensor readings with gesture sensor reading signatures to determine the current gesture. The
+                            second uses a neural network trained on a labelled set of gesture readings to recognize gestures.</li>
+                    </ul>
+                    <b>THE LEGO GROUP – Billund, Denmark</b>
+                    <ul>
+                        <li>Product Development Consultant, June 2016 – Present</li>
+                        <li> Alpha and beta-tested both hardware and software products under NDA</li>
+                        <li> Designed two robots for the official LEGO MINDSTORMS App released in 2021</li>
+                    </ul>
+                    <b>INDEPENDENT RESEARCH – Pittsburgh, PA</b>
+                    <ul>
+                        <li>Research, August 2018 – June 2019</li>
+                        <li> Developed a system that combines on-vehicle and infrastructure-based sensors to provide a more complete view of the environment, including areas not visible from the vehicle.</li>
+                        <li>Developed custom vision recognition system, sensor fusion model, and networking protocol design for system.</li>
+                        <li>Built a small-scale experimental testbed as a proof of concept.</li>
+                        <li>Presented work at Intel International Science and Engineering Fair in Phoenix, AZ.</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <br>
+        <div id='projects' style="border:2px solid grey;border-radius: 5px; ">
+            <h2>Projects</h2>
+            <div class="">
+                <div class="col-lg-12 col-md-10 mx-auto">
+
+                    <!-- background: 'img/bg-portfolio.jpg' -->
+
+                    <link href="css/style.css" rel="stylesheet">
+                    <!-- <link href="css/reset.css" rel="stylesheet"/> -->
+
+                    <div class="controls mixitup-control-active" data-sort="random">
+                        <center>
+
+                            <!-- <button type="button" class="control mixitup-control-active" data-filter="all">All</button>
+                <button type="button" class="control" data-filter=".blue">LEGO</button>
+                <button type="button" class="control" data-filter=".green">Tutorials</button>
+                <button type="button" class="control" data-filter=".pink">FIRST Apps</button>
+                <button type="button" class="control" data-filter=".yellow">FIRST Robotics</button>
+                <button type="button" class="control" data-filter=".purple">Science Research</button> -->
+                        </center>
+
+                        <!-- <button type="button" class="control" data-sort="default:asc">Asc</button>
+                <button type="button" class="control" data-sort="default:desc">Desc</button> -->
+                    </div>
+
+                    <div class="pcontainer" id="MixItUpAC0232" style="">
+                        <!-- <div class="mix green">
+                    <center>
+                        <a target="_blank" href="http://www.primelessons.org">
+                            <img src="img/portfolio/PrimeLessons.png" width="90%" alt="">
+                            <h4>SPIKE Prime</h4>
+                            <p>Launched in 2020, this site has 11,500 users. Tutorials to learn to program SPIKE Prime in Scratch and MicroPython. Available in 7 languages.</p>
+                        </a>
+                    </center>
+                </div> -->
+
+                        <!-- <div class="mix green">
+                    <center>
+                        <a target="_blank" href="http://www.flltutorials.com">
+                            <img src="img/portfolio/FLLTutorials.png" width="90%" alt="">
+                            <h4>FIRST LEGO League</h4>
+                            <p>Collaborative website with tutorials and tools to help FIRST LEGO League teams. Used by over 250,000. </p>
+                        </a>
+                    </center>
+                </div> -->
+
+                        <!-- <div class="mix pink">
+                    <center>
+                        <a target="_blank" href="https://flltutorials.com/Resources/2020/rubrics/index.html?lang=en">
+                            <img src="img/portfolio/Rubrics.png" width="90%" alt="">
+                            <h4>RePLAY Rubric</h4>
+                            <p>In 2020, I created a Rubric Tool for teams. This is being used by several FIRST regions.</p>
+                        </a>
+                    </center>
+                </div> -->
+
+                        <!-- <div class="mix pink">
+                        <center>
+                            <a target="_blank" href="https://flltutorials.com/Resources/2020/drawplan/index.html">
+                                <img src="img/portfolio/Planner.png" width="90%" alt="">
+                                <h4>Strategy Planner</h4>
+                                <p>Since 2014, I have created this planning App for teams.</p>
+                            </a>
+                        </center> -->
+                        <div class="mix pink" style="">
+                            <center>
+                                <a target="_blank" href="https://tournament.flltutorials.com/">
+                                    <img src="img/portfolio/Rubrics.png" width="40%" alt="">
+                                    <h4>FLL Tournament Management System</h4>
+                                </a>
+                                <p>Used by the Virtual Open Invitational, FIRST British Columbia, New Jersey, Moscow, and others to manage FIRST LEGO League competitions. It manages teams, referees, and judges within a single web-based system.</p>
+
+                            </center>
+                        </div>
+                        <div class="mix purple" style="">
+                            <center>
+                                <a target="_blank" href="https://arxiv.org/abs/2009.03458 ">
+                                    <img src="img/portfolio/SensorFusion.png" width="90%" alt="">
+                                    <h4>Sensor Fusion for Autonomous Vehicles</h4>
+                                </a>
+                                <p>Intel ISEF Finalist award.</p>
+
+                            </center>
+                        </div>
+                        <div class="mix green" height="" style="">
+                            <center>
+                                <a target="_blank" href="http://www.ev3lessons.com">
+                                    <img src="img/portfolio/EV3Lessons.png" width="90%" alt="">
+                                    <h4>LEGO MINDSTORMS</h4>
+                                </a>
+                                <p>Launched in 2014. The #1 resource for learning to program the EV3 (in Labview and Scratch). Over 800,000 users. Available in 12 languages.</p>
+
+                            </center>
+                        </div>
+                        <div class="mix purple" style="">
+                            <center>
+                                <a target="_blank" href="https://arxiv.org/abs/2009.13322">
+                                    <img src="img/portfolio/lite.jpg" width="90%" alt="">
+                                    <h4>A wearable, optical-fiber gesture recognition system</h4>
+                                </a>
+                                <p>Regeneron STS Submission</p>
+
+                            </center>
+                        </div>
+                        <div class="mix pink" style="">
+                            <center>
+                                <a target="_blank" href="https://virtual.fchacks.org/">
+                                    <img src="https://virtual.fchacks.org/fchacks-logo.svg" width="90%" alt="">
+                                    <h4>Hackathon Management System</h4>
+                                </a>
+                                <p>Designed for use by the FCHacks Hackathon to manage team registrations, submissions, and judge evaluations (Main FCHacks website can be found <a target="_blank" href="https://www.fchacks.org/">here</a>).</p>
+
+                            </center>
+                        </div>
+                        <div class="mix purple" style="">
+                            <center>
+                                <a target="_blank" href="https://www.sciencenewsforstudents.org/article/teen-identifies-way-detect-failing-underground-pipes">
+                                    <img src="img/portfolio/WaterMain.png" width="90%" alt="">
+                                    <h4>Monitoring Water Pipe Structural Health</h4>
+                                </a>
+                                <p>Broadcom MASTERS Finalist award.</p>
+
+                            </center>
+                        </div>
+                        <div class="mix pink" style="">
+                            <center>
+                                <a target="_blank" href="https://flltools.flltutorials.com/">
+                                    <img src="img/portfolio/RePLAY.png" width="90%" alt="">
+                                    <h4>FLL Scorer &amp; Tools</h4>
+                                </a>
+                                <p>Since 2015, I have created an annual scoring App used by 50,000/yr. Available on iOS and Android App Stores.</p>
+
+                            </center>
+                        </div>
+                        <div class="mix green" style="">
+                            <center>
+                                <a target="_blank" href="https://www.facebook.com/groups/FLLShareandLearn/">
+                                    <img src="img/portfolio/FLL.png" width="90%" alt="">
+                                    <h4>FLL Challenge: Share and Learn</h4>
+                                </a>
+                                <p>One of 4 Share &amp; Learn community groups that bring together 10,000 coaches/volunteers.
+                                </p>
+
+                            </center>
+                        </div>
+                        <!-- </div> -->
+
+                        <!-- <div class="mix pink">
+                    <center>
+                        <a target="_blank" href="https://github.com/sanjayseshan/spikeprime-precompiler/releases">
+                            <img src="img/portfolio/RAMSaver.png" width="90%" alt="">
+                            <h4>SPIKE Prime RAM Saver</h4>
+                            <p>Created in 2020 to help teams overcome space limitations in SPIKE Prime</p>
+                        </a>
+                    </center>
+            </div> -->
+
+                        <div class="mix pink">
+                            <center>
+                                <a target="_blank" href="https://github.com/sanjayseshan/spikeprime-vscode">
+                                    <img src="img/portfolio/VSCode.png" width="90%" alt="">
+                                    <h4>SPIKE Prime VSCode Extension</h4>
+                                </a>
+                                <p>Created in 2020 to help teams upload Python code to SPIKE Prime</p>
+
+                            </center>
+                        </div>
+
+                        <div class="mix blue">
+                            <center>
+                                <a target="_blank" href="https://www.facebook.com/watch/?v=2707195376264589">
+                                    <img src="img/portfolio/Pix3lPlott3r.jpg" width="90%" alt="">
+                                    <h4>DIY Dot Matrix Photo Printer</h4>
+                                </a>
+                                <p>First LEGO photo booth printer with Raspberry Pi interface</p>
+
+                            </center>
+                        </div>
+
+                        <div class="mix blue">
+                            <center>
+                                <a target="_blank" href="https://youtu.be/jslYbiKfCGQ">
+                                    <img src="img/portfolio/3Dprinter.jpg" width="90%" alt="">
+                                    <h4>DIY 3D Printer</h4>
+                                </a>
+                                <p>First LEGO 3D Printer to take G-Code and feature a full-sized print bed and RPi.
+                                </p>
+
+                            </center>
+                        </div>
+
+                        <div class="mix blue">
+                            <center>
+                                <a target="_blank" href="https://www.facebook.com/watch/?v=2275925059311931">
+                                    <img src="img/portfolio/pacbot.jpg" width="90%" alt="">
+                                    <h4>Multiplayer Arcade Games</h4>
+                                </a>
+                                <p>First multiplayer MINDSTORMS game with 12 networked robots and RPi</p>
+
+                            </center>
+                        </div>
+
+                        <!-- <div class="mix yellow">
+                    <center>
+                        <a target="_blank" href="https://github.com/droidsrobotics/FRC-tracking-2019-offseason">
+                            <img src="img/portfolio/FRCVision.jpg" width="90%" alt="">
+                            <h4>Custom Vision Processing</h4>
+                            <p>Used in FIRST Robotics Competition Robot in 2019-2020.</p>
+                        </a>
+                    </center>
+                </div> -->
+
+                        <div class="mix yellow">
+                            <center>
+                                <a target="_blank" href="https://github.com/sanjayseshan/exercise-helper">
+                                    <img src="https://github.com/sanjayseshan/exercise-helper/raw/master/v1.png?raw=true" width="90%" alt="">
+                                    <h4>Personal Exercise Trainer Using ML</h4>
+                                </a>
+                                <p>Used for FIRST Robotics Competition Team 8027 Innovation Challenge project.</p>
+
+                            </center>
+                        </div>
+
+                        <br> Project code can be found on my <a target="_blank" href="https://github.com/sanjayseshan">GitHub</a> when applicable.
+                        <br><br>
+
+                        <div class="gap"></div>
+                        <div class="gap"></div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+        <br>
+        <div id='awards' style="border:2px solid grey;border-radius: 5px; ">
+            <h2>Awards</h2>
+
+            <div class="panel-group" id="accordion" style="margin-left:20px; line-height: 5px;">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <b>2020</b>
+                        </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse show in">
+                        <div class="panel-body">
+                            <p class="panel-list">President’s National Service Award (Gold Medal)</p>
+                            <p class="panel-list">National Merit Scholarship Commendation (Top 3%) </p>
+                            <!-- <p class="panel-list">Volunteer of the Year: Virtual Open Invitational</p> -->
+                            <p class="panel-list">Qualified: FIRST World Championships (Cancelled due to COVID-19)
+                            </p>
+                            <!-- <p class="panel-list">Qualified: PJAS States (Cancelled due to COVID-19)</p> -->
+                            <!-- <p class="panel-list">PRSEF: Cancelled due to COVID-19</p> -->
+                            <p class="panel-list">PJAS: First Place Engineering Region 7, PJAS Director’s Award, Sister Maze Award</p>
+                            <p class="panel-list">FIRST Robotics Competition Regional Rookie All-star Award (Dayton, OH)
+                            </p>
+                            <!-- <p class="panel-list">FIRST Robotics Dean's List Semi-Finalist</p> -->
+                            <p <="" div="">
+                            </p>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <b>2019</b>
+                            </h4>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse show">
+                            <div class="panel-body">
+                                <p class="panel-list">Intel International Science and Engineering Fair (ISEF) Finalist
+                                </p>
+                                <p class="panel-list">PJAS States: First Place Engineering PA States</p>
+                                <p class="panel-list">PJAS: First Place Engineering Region 7, Carnegie Mellon University Civil and Engineering Department Chi Epsilon award</p>
+                                <p class="panel-list">PRSEF: Intel ISEF Finalist Award, FedEx Ground Award, Third Place Senior Division Robotics/Engineering </p>
+                                <p class="panel-list">Finalist Alliance at FIRST Robotics Competition MVRC (Warren, OH)
+                                </p>
+                                <!-- <p class="panel-list">FIRST Nomination for Apple Engineering Technology Camp (top 75/1000)</p> -->
+                                <p class="panel-list"></p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <b>2018</b>
+                            </h4>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse show">
+                            <div class="panel-body">
+                                <p class="panel-list">Tournament Champion, FIRST LEGO League World Championship (Top 1/40,000)
+                                </p>
+                                <p class="panel-list">Commendation from Tom Wolf, Governor of Pennsylvania</p>
+                                <!-- <p class="panel-list">Proclamation from Allegheny County Pennsylvania</p> -->
+                                <p class="panel-list">PRSEF: Second Place Senior Division Robotics/Engineering, FedEx Ground Award, Harrisburg University of Science &amp; Technology Award, Innovation Works Award</p>
+                                <p class="panel-list">PJAS State: First Place Perfect Award Engineering PA States, Director’s Engineering Award</p>
+                                <p class="panel-list">PJAS: First Place Engineering Region 7, Innovation Works Award, an American Vacuum Society–Western PA Chapter Award, and an American Society of Civil Engineers Award</p>
+                                <p class="panel-list">Provisional Patent: Methods of and Apparatus for Monitoring of Water Pipe Structural Health</p>
+                                <p class="panel-list"></p>
+                                <p class="panel-list"></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <b>2017</b>
+                            </h4>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse show">
+                            <div class="panel-body">
+                                <p class="panel-list">Minor Planet 33762 named Sanjayseshan</p>
+                                <p class="panel-list">Broadcom MASTERS National Finalist (Top 30/80,000) science fair project award</p>
+                                <p class="panel-list">Coach/Mentor of the Year, FIRST LEGO League World Championship
+                                </p>
+                                <p class="panel-list">Named MINDSTORMS Community Partner by the LEGO Group</p>
+                                <p class="panel-list">PRSEF: Broadcom MASTERS nomination, Third Place Earth, Space and Environment, Allegheny County Health Department Award, Arconic Foundation Award
+                                </p>
+                                <p class="panel-list">State Champion's Award (1st place), Robot Performance (1st place) FIRST LEGO League</p>
+                                <p class="panel-list"></p>
+                                <p class="panel-list"></p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a target="_blank" data-toggle="collapse" data-parent="#accordion" aria-expanded="true" href="#collapseThree">2016</a>
+                    </h4>
+                  </div>
+                  <div id="collapseThree" class="panel-collapse collapse show">
+                    <div class="panel-body">
+                      <p class="panel-list">First Place Programming, FIRST LEGO League World Championship</p>
+                      <p class="panel-list">Global Innovation Award (Top 20/40,000)</p>
+                        <p class="panel-list">Coach of State Champion’s Award (1st place) FIRST LEGO League</p>
+                          <p class="panel-list">Provisional Patent: Methods of and Apparatus for Sorting Batteries and Methods for Marking Batteries</p>
+                            <p class="panel-list"></p>
+                    </div>
+                  </div>
+                </div> -->
+                    <!--               
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a target="_blank" data-toggle="collapse" data-parent="#accordion" aria-expanded="true" href="#collapseThree">Earlier</a>
+                    </h4>
+                  </div>
+                  <div id="collapseThree" class="panel-collapse collapse show">
+                    <div class="panel-body">
+                      <p class="panel-list">2015: Tournament Champion (1st place), FIRST LEGO League World Invitational</p>
+                      <p class="panel-list">2014: First Place Innovative Solution Research Project, FIRST LEGO League World Invitational</p>
+                      <p class="panel-list">2015: State Champion’s Award (1st place), Robot Performance (1st place) FIRST LEGO League</p>
+                      <p class="panel-list">2014: State Champion’s Award (2nd place), Robot Performance (1st place) FIRST LEGO League</p>
+                      <p class="panel-list">2013: State Champion’s Award (1st place), Robot Performance (1st place) FIRST LEGO League</p>
+                      <p class="panel-list">2012: State Champion’s Award (2nd place), Robot Performance (2nd place) FIRST LEGO League</p>
+                      <p class="panel-list">2011: State Champion’s Award (3rd place), Robot Performance (1st place) FIRST LEGO League</p>
+                      <p class="panel-list"></p>
+                      <p class="panel-list"></p>
+                    </div>
+                  </div>
+                </div>
+               -->
+                </div>
+
+                <!-- </div> -->
+
+
+
+
+            </div>
+        </div>
+        <br>
+        <div id='contact' style="border:2px solid grey;border-radius: 5px; ">
+            <h2>Contact</h2>
+            <p style="margin-left: 20px;"> Feel free to reach out to me at <a target="_blank" href="mailto:seshan@mit.edu">seshan@mit.edu</a>.</p>
+        </div>
+        <br>
+        <!-- <br><br> -->
+
+</body>
+
+</html>

@@ -1,0 +1,159 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+h2 {
+    margin-left: 5px;
+}
+
+div,
+#nav {
+    transition: all 0.5s linear;
+}
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 0px 8px 6px 0px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+    margin-left: 160px;
+    /* Same as the width of the sidenav */
+    /* font-size: 18px; */
+    /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+.mix {
+    background: #fff;
+    border: 2px solid black;
+    border-top: 0.5rem solid currentColor;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    position: relative;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 400px;
+    font-size: 15px;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.mix,
+.gap {
+    display: inline-block;
+    vertical-align: top;
+    /* margin-right:10px; */
+    /* overflow: scroll; */
+}
+
+.mix,
+.gap {
+    /* width: calc(100%/4 - (((2 - 1) * 1rem) / 2)); */
+}
+
+.mix img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    height: 150px;
+    object-fit: contain;
+}
+
+@media screen and (min-width: 1200px) {
+    .mix,
+    .gap {
+        width: calc(100%/6 - (((4 - 1) * 1rem) / 4)) !important;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .mix,
+    .gap {
+        width: calc(100%/5 - (((3 - 1) * 1rem) / 3)) !important;
+    }
+}
+
+.panel-body {
+    margin-left: 10px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #121212 !important;
+        color: white !important;
+    }
+    section {
+        background-color: #121212 !important;
+        color: white !important;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    i,
+    label,
+    textarea,
+    pre,
+    b,
+    table {
+        /* background-color: #121212 !important; */
+        color: white;
+    }
+    .navbar,
+    .topnav {
+        background-color: #333 !important;
+    }
+    .ui-popup {
+        background-color: #121212 !important;
+    }
+    Table {
+        border: 1px solid white !important;
+    }
+    Text {
+        color: white !important;
+        fill: white !important;
+        text-shadow: none;
+    }
+    .sidenav {
+        background-color: #000000;
+    }
+    .mix {
+        background: #000000;
+        /* border: 2px solid white; */
+    }
+}
