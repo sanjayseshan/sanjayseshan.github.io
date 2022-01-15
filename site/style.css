@@ -66,28 +66,41 @@ div,
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-.mix,
+
+/* .mix,
 .gap {
     display: inline-block;
     vertical-align: top;
     /* margin-right:10px; */
-    /* overflow: scroll; */
-}
 
+
+/* overflow: scroll; */
+
+
+}
 .mix,
 .gap {
     /* width: calc(100%/4 - (((2 - 1) * 1rem) / 2)); */
 }
-
-.mix img {
+*/ .mix img {
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
     height: 150px;
     object-fit: contain;
 }
+.mix,
+gap {
+    max-width: 300px;
+    margin: 10px;
+}
+.pcontainer {
+    display: flex;
+    flex: auto;
+    flex-wrap: wrap;
+}
 
-@media screen and (min-width: 1200px) {
+/* @media screen and (min-width: 1200px) {
     .mix,
     .gap {
         width: calc(100%/6 - (((4 - 1) * 1rem) / 4)) !important;
@@ -99,25 +112,24 @@ div,
     .gap {
         width: calc(100%/5 - (((3 - 1) * 1rem) / 3)) !important;
     }
-}
-
+} */
 .panel-body {
     margin-left: 10px;
 }
-
 html {
     scroll-behavior: smooth;
 }
-
 @media (prefers-color-scheme: dark) {
     body {
         background-color: #121212 !important;
         color: white !important;
     }
+    
     section {
         background-color: #121212 !important;
         color: white !important;
     }
+    
     h1,
     h2,
     h3,
@@ -134,24 +146,30 @@ html {
         /* background-color: #121212 !important; */
         color: white;
     }
+    
     .navbar,
     .topnav {
         background-color: #333 !important;
     }
+    
     .ui-popup {
         background-color: #121212 !important;
     }
+    
     Table {
         border: 1px solid white !important;
     }
+    
     Text {
         color: white !important;
         fill: white !important;
         text-shadow: none;
     }
+    
     .sidenav {
         background-color: #000000;
     }
+    
     .mix {
         background: #000000;
         /* border: 2px solid white; */
