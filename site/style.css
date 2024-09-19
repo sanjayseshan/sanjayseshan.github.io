@@ -11,6 +11,10 @@ div,
     transition: all 0.5s linear;
 }
 
+h2 {
+    padding:5px;
+}
+
 .sidenav {
     height: 100%;
     width: 160px;

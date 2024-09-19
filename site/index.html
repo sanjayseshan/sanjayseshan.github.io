@@ -119,7 +119,8 @@
 
 
                 <p>
-                    My CV/resume is available <a href="http://sanjay.seshan.org/resume/cv_resume_seshan.pdf">here</a>.
+                    My CV/resume is available (updated 18 Sept. 2024) <a href="cv_resume_seshan.pdf">here</a>.
+                    Latest link (may not work yet...) <a href="http://sanjay.seshan.org/resume/cv_resume_seshan.pdf">here</a>.
                 </p>
                 <!-- <p>I have been programming small LEGO robots for almost a decade now. I was invited by The LEGO Group to become one of the youngest ever MINDSTORMS Community Partners (MCP), a small group of experts invited to collaborate with LEGO on projects.
                     I began my own website, EV3Lessons in 2014 and started teaching other children how to program LEGO robots. Today, I have a million users across all my websites and community groups. I have been invited by The LEGO Group and LEGO Education
@@ -158,8 +159,12 @@
                 </div>
                 <h5>Skills</h5>
                 <ul>
-                    <li>System Verilog, Bluespec, RISC-V, PCB layout and design (KiCad and Altium), Embedded Systems development, FPGA development (Xilinx toolchain), Java,
-                        Python, C, C++, TensorFlow, SolidWorks, Linux, Cadence simulation and layout</li>
+                    <!-- <li>System Verilog, Bluespec, RISC-V, PCB layout and design (KiCad and Altium), Embedded Systems development, FPGA development (Xilinx toolchain), Java,
+                        Python, C, C++, TensorFlow, SolidWorks, Linux, Cadence simulation and layout</li> -->
+                      <li> C/C++, Bluespec, SystemVerilog, Python, Embedded Systems design and programming (e.g. Zephyr), Cadence
+simulation and layout, Xilinx FPGA toolchain (vivado)</li> 
+<li> Photoshop & DSLR Photography, LATEX, Machine Learning (pytorch), Signal Processing, PCB Circuit layout & Design
+(KiCad, Altium), Java, HTML/JS/CSS</li>
                 </ul>
 
                 <h5>Work and Research</h5>
@@ -168,7 +173,12 @@
                     <br> May 2024 - Aug. 2024
                     <ul>
                         <li>
-
+                             Contributed to development of SMT-based architecture that can scale to very large number of computation threads</li><li>
+                             Extended RISC-V ISA to support thread creation, thread termination and inter-thread communication</li><li>
+                             Implemented extensions to RISC-V design for ”token”-based approach to managing inter-thread communication using
+                            Bluespec SystemVerilog HDL</li><li>
+                             Verified design using a tandem verification system</li><li>
+                             Expected to submit for publication in Fall 2024
 
                         </li>
 
@@ -178,8 +188,8 @@
                     <ul>
                         <li>
 
-                            Worked with professors and staff to develop the the Computer Architecture course at MIT, with 30 students enrolled. Wrote lab assignments, hosted office hours for students,  Instructed several lectures and recitations, and managed project groups for the Spring 2024 term.
-
+                            Supervised final projects for 30 students and developed course materials including lab assignments and course notes </li><li>
+                             Hosted office hours and delivered multiple course lectures and recitations
                         </li>
 
                     </ul>
@@ -193,10 +203,12 @@
                     <ul>
                         <li>
 
-                            Worked to develop low-powered embedded systems using industry-standard sensors and
-                            SoCs to monitor freight shipping integrity over several months. Used embedded C and PCB
-                            design to develop this system.
-
+                             Evaluated numerous sensors (i.e. accelerometers, magnetometers) and embedded development boards for use in system
+                            to monitor freight shipments over the course of several months, without any maintenance </li><li>
+                             Developed, implemented and programmed proof-of-concept design incorporating core sensing elements to demonstrate
+                            low-power capabilities </li><li>
+                             Designed a custom PCB design containing of all the desired sensors, CPU, and interfacing chips, that was subsequently
+                            printed, assembled and tested with expectations to deploy sensor onto a freight ship in the near future
                         </li>
 
                     </ul>
@@ -205,11 +217,9 @@
                     <br> Jan. 2023 - May 2024
                     <ul>
                         <li>
-
-                            Working on improving the performance of graph mining algorithms using custom hardware,
-                            designed and tested in x86 simulators. This project explores how distributed and near-data
-                            (in memory) processing can improve the performance of graph pattern mining.
-
+                            Designed an application-specific accelerator for graph pattern mining and graph vector search</li><li>
+                             Synthesized accelerator for Xilinx FPGA using Vivado and evaluated correctness and efficiency of implementation</li><li>
+                             Evaluated performance of processing in memory (PIM) and parallelization techniques in the implementation
                         </li>
 
                     </ul>
@@ -219,9 +229,10 @@
                     <ul>
                         <li>
 
-                            Worked on developing algorithms in Python related to monitoring health using Emerald
-                            RF-based devices.Worked on developing algorithms in Python related to monitoring health
-                            using Emerald RF-based devices.
+                            Designed algorithm to extract common paths that a single person takes from raw position data (calculated from the
+                            RF signal feedback)</li><li>
+                             Implemented algorithm as part of an in-house python package used to calculate a person’s walking speed and detect
+                            changes that could indicate the progression of disease
 
                         </li>
 
@@ -328,6 +339,17 @@
 
                     <div class="pcontainer" id="MixItUpAC0232" style="">
                         <ul>
+                            <!-- Silicon Differential Amplifier (MIT 6.2080): Completed layout and tapeout preparation process for a CMOS-based
+differential amplifier in Cadence.
+ Embedded Oscilloscope (MIT 6.115): Designed and implemented a PSoC (programmable system on chip) based
+oscilloscope, with two analog inputs and one analog output, including full frequency analysis and user customizability.
+ 2D MoS2 -based Transistors (MIT 6.s059): Fabricated a nano-scale 2D MOSFET-style transistor using MoS2
+channels for use in developing logic gates, working from design to physical tapeout. Work was accepted to Microsystems
+Annual Research Conferences (MARC), Jan. 2024.
+ Multicore RISC-V Implementation (MIT 6.175): Designed and implemented a pipelined, dual-core RISC-V
+32-bit processor with a shared cache hierarchy in Bluespec SystemVerilog. Synthesized design to work on AWS-based
+FPGA. -->
+
                             <li>Completed layout and tapeout process for a CMOS based differential amplifier in Cadence as part of the MIT 6.2080 course</li>
                             <li>Designed and implemented a PSoC (programmable system on chip) based oscilloscope, with two analog inputs and one analog output, including full frequency analysis and user customizability. Built as part of MIT 6.115 course. </li>
                             <li>Implemented a Graph-based Vector Search accelerator on a Xilinx FPGA using
