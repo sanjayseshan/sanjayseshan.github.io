@@ -25,7 +25,7 @@ h2 {
     left: 0;
     background-color: #111;
     overflow-x: hidden;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
     padding-top: 20px;
 }
 
