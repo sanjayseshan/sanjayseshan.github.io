@@ -61,7 +61,7 @@ h2 {
     /* font-size: 18px; */
     /* Increased text to enable scrolling */
     padding: 0px 10px;
-    font: 14.0px/1.5 Segoe UI, serif;
+    font: 15.0px/1.5 Segoe UI, serif;
     /* display: flex; */
     /* justify-content: center; */
 
@@ -138,8 +138,9 @@ gap {
 
 .sectioncontent {
     margin-left: 20px;margin-top: 10px; margin-right:20px;
-    text-align: justify;
-    text-justify: inter-word;
+    /* text-align: justify;
+    text-justify: inter-word; */
+    text-align: left;
 }
 
 .bordered li {
