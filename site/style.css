@@ -122,7 +122,9 @@ gap {
 }
 
 .sectioncontent {
-    margin-left: 20px;margin-top: 10px; margin-right:10px;
+    margin-left: 20px;margin-top: 10px; margin-right:20px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 
