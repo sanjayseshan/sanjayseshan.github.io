@@ -14,6 +14,7 @@ div,
 h2 {
     padding:5px;
     padding-bottom:0px;
+    /* padding-bottom:10px; */
 }
 
 .sidenav {
@@ -27,6 +28,8 @@ h2 {
     overflow-x: hidden;
     /* overflow-y: hidden; */
     padding-top: 20px;
+    font: 14.0px/1.5 Segoe UI, serif;
+
 }
 
 .sidenav a {
@@ -58,6 +61,18 @@ h2 {
     /* font-size: 18px; */
     /* Increased text to enable scrolling */
     padding: 0px 10px;
+    font: 14.0px/1.5 Segoe UI, serif;
+    /* display: flex; */
+    /* justify-content: center; */
+
+}
+
+h2 {
+    color: #043361;
+}
+
+p {
+    color: #595959;
 }
 
 @media screen and (max-height: 450px) {
@@ -125,6 +140,22 @@ gap {
     margin-left: 20px;margin-top: 10px; margin-right:20px;
     text-align: justify;
     text-justify: inter-word;
+}
+
+.bordered li {
+    margin-bottom:25px;
+        /* border:1px solid grey;border-radius: 15px; */
+
+}
+
+.bordered ul {
+    list-style-type: none;
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */}
+
+.bordered {
+    /* border:1px solid grey;border-radius: 15px; */
+    margin:5px; 
 }
 
 
