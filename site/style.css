@@ -28,7 +28,7 @@ h2 {
     overflow-x: hidden;
     /* overflow-y: hidden; */
     padding-top: 20px;
-    font: 14.0px/1.5 Segoe UI, serif;
+    /* font: 14.0px/1.5 Segoe UI, serif; */
 
 }
 
@@ -61,7 +61,7 @@ h2 {
     /* font-size: 18px; */
     /* Increased text to enable scrolling */
     padding: 0px 10px;
-    font: 15.0px/1.5 Segoe UI, serif;
+    /* font: 15.0px/1.5 Segoe UI, serif; */
     /* display: flex; */
     /* justify-content: center; */
 
