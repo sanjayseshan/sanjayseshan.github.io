@@ -22,7 +22,7 @@
 </head>
 
 <body>
-    <div style="position:fixed;top:5px;margin-left: 5px;z-index: 99999999999;"><button id="hide"
+    <div style="display:none;position:fixed;top:5px;margin-left: 5px;z-index: 99999999999;"><button id="hide"
             class="btn btn-secondary" onclick="show()"><i class="fa fa-chevron-left" aria-hidden="true"></i>
         </button></div>
 
@@ -56,15 +56,17 @@
 
         <center>
             <!-- <img src="img/Seshan_014.jpg" style="object-fit:cover;border-radius:30%;width:90%;"> -->
-            <img src="DSC_8922.jpeg" style="object-fit:cover;border-radius:30%;width:75%;">
-            <a href="#sanjay"><b style="color:white">Sanjay Seshan</b></a>
-            <a href="#about">About</a>
-            <a href="#publications">Publications</a>
-            <a href="#projects">Projects</a>
-            <a href="#awards">Activities</a>
-            <a href="#experience">Experience</a>
-            <!-- <a href="#education">Education</a> -->
-            <a href="#contact">Contact</a>
+            <img src="DSC_8922.jpeg" style="object-fit:cover;border-radius:30%;width:75%;max-width: 150px;">
+            <a href="#sanjay"><b>Sanjay Seshan</b></a> <!-- style="color:white"-->
+            <div class="flexible">
+                <a href="#about">About</a>
+                <a href="#publications">Publications</a>
+                <a href="#projects">Projects</a>
+                <a href="#awards">Activities</a>
+                <a href="#experience">Experience</a>
+                <!-- <a href="#education">Education</a> -->
+                <a href="#contact">Contact</a>
+            </div>
             <br>
 
             <div style="display:inline" class="fafaside">
@@ -82,7 +84,7 @@
                         <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
                     </span>
                 </a>
-                <div style="margin:0;padding:0;padding-top:4px"></div>
+                <!-- <div style="margin:0;padding:0;padding-top:4px"></div> -->
                 <!-- <br> -->
                 <a target="_blank" href="http://sanjay.seshan.org/resume/cv_resume_seshan.pdf">
                     <span class="fa-stack fa-sm">
@@ -98,7 +100,7 @@
                         <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
                     </span>
                 </a>
-                <div style="margin:0;padding:0;padding-top:4px"></div>
+                <!-- <div style="margin:0;padding:0;padding-top:4px"></div> -->
 
                 <!-- <br> -->
                 <a target="_blank"
@@ -121,7 +123,7 @@
                 <div style="border:5px solid grey;border-radius: 5px; display: none; ">
                     <h1 style="margin:10px;">Sanjay Seshan</h1>
                 </div>
-                <br>
+                <!-- <br> -->
                 <div id='about' class="bordered">
                     <h2>About</h2>
                 </div>
